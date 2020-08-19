@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  text-align: center;
+  font-weight: normal;
+}
+h1 {
+  color: #66BFBF;
+}
+h2 {
+  color: #66BFBF;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;  
+}
+ h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4ca1a1;
+  
+ }
+ p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 29px;
+ } 
+
+ hr {
+   margin: 100px auto;
+   border: 6px dotted #b9cccc;
+   border-bottom: none;
+   width: 7%;
+   
+ }
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.intro {
+  padding: 163px 0 50px;
+}
+.intro h1 {
+  font-size: 80px;
+  font-family: 'Sacramento', cursive;
+  line-height: 120px;
+}
+.intro h2 {
+  font-size: 40px; 
+  font-size: 38px;
+  letter-spacing: 6px;
+  padding-top: 12px; 
+}
+
+
+
+.cloud1 {
+  position: absolute;
+  top: 59px;
+  right: 288px;
+}
+.cloud2 {
+  position: absolute;
+  left: 185px;
+  bottom: 250px;
+}
+.mountain {
+  width: 40%;
+  position: absolute;
+bottom: 0;
+left: 30%;
+}
+/* --------------hello--section----------------- */
+.middle-container {
+  margin: 100px 15px;
+}
+.middle-container h2{
+  padding:40px 0;
+  
+}
+.middle-container p {
+  max-width: 453px;
+  margin: 0 auto;
+  
+}
+
+/* ---------------skill section-------------- */
+
+.skill-container {
+  margin: 100px auto;
+  width: 50%;
+  
+}
+
+
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  float: right;
+  margin: auto;
+}
+.skill2 {
+  padding-top: 37px;
+}
+.skill2 h3,.skill2 p {
+  padding: 6px;
+  text-align: left;
+}
+
+/* -------contact---me---------------- */
+
+.contact {
+  width: 50%;
+  margin: 100px auto;
+}
+.contact h2, .contact p {
+  padding: 32px 14px;
+}
+#mail-me {
+  color: #66BFBF;
+  text-decoration: none;
+  border: 2px solid #66BFBF;
+  padding: 6px 12px;
+  font-size: 23px; 
+  border-radius: 8px; 
+}
+#mail-me:active #mail-me:visited {
+  color: #66BFBF;
+  border: 2px solid #66BFBF;
+}
+
+#mail-me:hover {
+  background-color: #66BFBF;
+  color: white;
+  
+}
+/* ----------footer----------- */
+
+.footer {
+  background-color:#66BFBF;
+}
+.contacts-links a {
+  display: inline-block;
+  margin: 35px;
+  text-decoration: none;
+  color: #007a7a;
+  font-size: 19px;
+  
+}
+.contacts-links a:hover {
+  color: #dfebeb;
+}
+.footer p {
+  color: #dfebeb;
+  font-size: 16px;
+  padding-bottom: 35px;
+}
